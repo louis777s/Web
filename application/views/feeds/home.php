@@ -25,7 +25,7 @@
     <url><![CDATA[<?=base_url();?>images/design/favicon.ico]]></url>
     </image>
 
-<?php foreach($NewsList as $item):?>
+<?php foreach($NewsList as $item):?>kjhgjkghfjfhgk
     <item>
       <title><?=$item['news_title'];?></title>
       <link><?=site_url("blog/{$item['news_alias']}");?></link>
